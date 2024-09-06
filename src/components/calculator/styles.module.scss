@@ -1,0 +1,20 @@
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    button {
+        width: 50px;
+        height: 40px;
+        margin: 5px;
+    }
+}
